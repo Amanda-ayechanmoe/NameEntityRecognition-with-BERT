@@ -8,25 +8,29 @@ The aim is to identify and extract research article titles from the twitter data
 # Data Preprocessing Steps 
 1. Preprocessing the article names with generate unigram data set
 
-..* Example of extracting unigram tokens from original article title
-<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/example%20of%20extracting%20unigram%20tokens%20from%20original%20article%20title.PNG" width="300"/>
+* Example of extracting unigram tokens from original article title
+
+<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/example%20of%20extracting%20unigram%20tokens%20from%20original%20article%20title.PNG" width="500"/>
 
 2. Preporcessing the tweets
 
 3. Tagging each word in the tweet posts
 
-..* Example of tagging each word in the tweet post
-<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/example%20of%20tagging%20each%20word%20in%20the%20tweet%20post.PNG" width="300"/>
+* Example of tagging each word in the tweet post
+
+<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/example%20of%20tagging%20each%20word%20in%20the%20tweet%20post.PNG" width="500"/>
 
 4. Performing BIO tagging
 
-..* Example of performing BIO tagging 
-<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/example%20of%20performing%20BIO%20tagging.PNG" width="300"/>
+* Example of performing BIO tagging 
+
+<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/example%20of%20performing%20BIO%20tagging.PNG" width="500"/>
 
 # Feature Engineering 
 
-..* The output dataset from the preprocessing stage would contain the attributes 
-<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/extracted%20features.PNG" width="300"/>
+* The output dataset from the preprocessing stage would contain the attributes 
+
+<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/extracted%20features.PNG" width="500"/>
 
 These word wise tweet data are recombined using the Id values to give a new dataset of complete tweets and their corresponding tags, tweet wise. 
 Then the Bert Tokenizer from pretrained bert-base-uncased model is used to tokenize the tweet data.
