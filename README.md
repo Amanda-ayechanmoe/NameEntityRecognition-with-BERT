@@ -1,11 +1,11 @@
 # NameEntityRecognition-with-BERT
 Article extraction from tweets mentioning research articles
 
-# Objective :dart: 
+# Objective 
 
 The aim is to identify and extract research article titles from the twitter data containing research related posts by utilizing the state-of-the-art BERT model. 
 
-# Data Preprocessing Steps :broom:
+# Data Preprocessing Steps 
 1. Preprocessing the article names with generate unigram data set
 2. Preporcessing the tweets
 3. Tagging each word in the tweet posts
@@ -32,7 +32,7 @@ The Bert base has a 12 encoder (also called transformer blocks) setup with a the
 The token limit was set to 100 as the processed tweets were within this length limit.
 The batch sizes for processing was set to 32 as per the recommendations of the original Bert paper
 
-#Validation and Testing
+# Validation and Testing
 With some basic hyperparameter tuning by using Adam’s optimizer with weight decay, the model was able to achieve a validation F1 score of 0.71 in 1 epoch.
 By adding an additional max gradient clipping step to reduce the effects of gradient blowing up, the model was able to attain a validation F1 score of 0.76.
 As the original Bert paper suggests an epoch range of 3-5 for high performance in the NLP tasks using that algorithm, by modifying the epoch to 3 and utilizing the newer implementation on TF2.0,
