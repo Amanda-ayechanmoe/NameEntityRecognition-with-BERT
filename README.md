@@ -7,6 +7,10 @@ The aim is to identify and extract research article titles from the twitter data
 
 # Data Preprocessing Steps 
 1. Preprocessing the article names with generate unigram data set
+
+-Example of extracting unigram tokens from original article title
+<img src="https://github.com/Amanda-ayechanmoe/NameEntityRecognition-with-BERT/blob/master/screenshots/example%20of%20extracting%20unigram%20tokens%20from%20original%20article%20title.PNG" width="800"/>
+
 2. Preporcessing the tweets
 3. Tagging each word in the tweet posts
 4. Performing BIO tagging
